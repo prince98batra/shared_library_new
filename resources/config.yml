@@ -1,5 +1,5 @@
 SLACK_CHANNEL_NAME: "build-status"
 ENVIRONMENT: "prod"
-CODE_BASE_PATH: "/home/ubuntu"
+CODE_BASE_PATH: "/home/ubuntu/"
 ACTION_MESSAGE: "Deployment Started"
 KEEP_APPROVAL_STAGE: true
