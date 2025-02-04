@@ -6,7 +6,7 @@ def call() {
             stage('Execute Playbook') {
                 steps {
                     script {
-                        sh "ansible-playbook -i home/ubuntu/inventory ${config.home/ubuntu/playbook.yml"
+                        sh "ansible-playbook -i ${config.CODE_BASE_PATH}/inventory ${config.CODE_BASE_PATH}/playbook.yml"
                     }
                 }
             }
